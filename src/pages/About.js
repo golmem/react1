@@ -1,8 +1,10 @@
 import React from "react";
+import Navigation from "../components/Navigation";
 
 const About = () => {
 	return (
 		<div>
+			<Navigation />
 			<h2>A propos</h2>
 			<p>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
