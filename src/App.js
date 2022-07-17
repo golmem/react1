@@ -1,12 +1,12 @@
-//premier composant
-
+import React from "react";
+//il n'est pas obligatoire d'importer react ici
+//les classe dans du code html en react sont utilisées avec className
 const App = () => {
-  //on retourne notre tout premier message
-  return <h1>hello React</h1>
-}
+	return (
+		<div>
+			<h1 className="test">hello react</h1>
+		</div>
+	);
+};
 
-/*----------------------------------------------------------------
-*on exporte par defaut notre variable App
-*pour pouvoir l'importer n'importe où dans notre projet
-------------------------------------------------------------------*/
 export default App;
