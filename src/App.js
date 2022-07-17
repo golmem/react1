@@ -3,6 +3,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 //importation de la page home.js
 import Home from "./pages/Home";
+import About from "./pages/About";
 
 //il n'est pas obligatoire d'importer react ici
 //les classe dans du code html en react sont utilisées avec className
@@ -15,6 +16,9 @@ const App = () => {
 		<BrowserRouter>
 			<Routes>
 				<Route path="/" element={<Home />} />
+				<Route path="/about" element={<About />} />
+				{/*path="*" renvoi sur la page d'acceuil si lurl cest du n'importe quoi*/}
+				<Route path="*" element={<Home />} />
 			</Routes>
 		</BrowserRouter>
 	);
