@@ -1,25 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+//premier composant
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+  //on retourne notre tout premier message
+  return <h1>hello React</h1>
 }
 
+/*----------------------------------------------------------------
+*on exporte par defaut notre variable App
+*pour pouvoir l'importer n'importe où dans notre projet
+------------------------------------------------------------------*/
 export default App;
