@@ -1,13 +1,16 @@
 import React from "react";
-import Navigation from "../components/Navigation";
+//importation du composant de la liste des pays
+import Countries from "../components/Countries";
 //importation de la navigation
+import Navigation from "../components/Navigation";
 
 const Home = () => {
 	return (
 		<div>
 			{/**appel du composant Navigation dans la page Home*/}
 			<Navigation />
-			<p>Acceuil</p>
+			{/**appel du composant Countries dans la page Home*/}
+			<Countries />
 		</div>
 	);
 };
