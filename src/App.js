@@ -1,7 +1,7 @@
 import React from "react";
 //importation de librairies venant de react-router
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-//importation de la page home.js
+//importation des pages
 import Home from "./pages/Home";
 import About from "./pages/About";
 
