@@ -2,7 +2,7 @@ import React from "react";
 
 const Countries = () => {
 	return (
-		<div>
+		<div className="countries">
 			<p>Countries</p>
 		</div>
 	);
